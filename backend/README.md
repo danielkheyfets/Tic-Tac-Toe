@@ -67,15 +67,7 @@ To start the server, run:
 yarn dev
 ```
 
-## Project Structure
 
-GamesService: Manages game instances and player matchmaking.
-GamesGateway: Handles WebSocket connections, player actions, and game events.
-Game: Represents the game logic and state.
-dtos/Move.dto: Data Transfer Object for player moves.
-contracts/IMoveResult: Interface for move results.
-contracts/IPlayer: Interface for player details.
-enums/Status: Enum for game status.
 
 ## Environment Variables
 
